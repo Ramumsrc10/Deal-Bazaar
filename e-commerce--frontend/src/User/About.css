@@ -1,0 +1,49 @@
+/* About Page Styles */
+.about {
+    padding: 40px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .about p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .about p:last-of-type {
+    margin-bottom: 0;
+  }
+  
+  /* Responsive Design for Smaller Screens */
+  @media (max-width: 768px) {
+    .about-content {
+      padding: 20px;
+    }
+  
+    .about h1 {
+      font-size: 28px;
+    }
+  
+    .about p {
+      font-size: 16px;
+    }
+  }
+  
